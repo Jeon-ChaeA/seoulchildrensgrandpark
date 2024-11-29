@@ -148,7 +148,7 @@
 
 - [디자인](https://www.figma.com/design/G3W8cO6RJMAjprxWiUpE6K/%ED%8C%80%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8(%EC%84%9C%EC%9A%B8%EC%96%B4%EB%A6%B0%EC%9D%B4%EB%8C%80%EA%B3%B5%EC%9B%90)?node-id=16-2&t=eNmlJEUuJL8BHIst-1)
 
-- [DEMO](ㄴㄴ)
+- [DEMO](http://seoulgrandpak.dothome.co.kr/)
 
 
 # 📞 Contact
