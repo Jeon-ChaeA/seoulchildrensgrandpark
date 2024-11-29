@@ -1,4 +1,4 @@
-# 📫 서울어린이대공원
+# 🌳 서울어린이대공원
 
 ## 🖥 작업자 : 전채아(Chae A JEON), 김해진(Haejin Kim), 허정(Jung Heo),
 
@@ -38,7 +38,7 @@
 
 - 개발 환경 : <img src="https://img.shields.io/badge/windows10-0078D6?style=flat-square&logo=windows10&logoColor=white"/>
 - 사용 프로그램 : <img src="https://img.shields.io/badge/Vs code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white"/> <img src="https://img.shields.io/badge/Photoshop-31A8FF?style=flat-square&logo=adobephotoshop&logoColor=white"/> <img src="https://img.shields.io/badge/Illustrator-f8a829?style=flat-square&logo=adobeillustrator&logoColor=white"/> <img src="https://img.shields.io/badge/figma-F24E1E?style=flat-square&logo=figma&logoColor=white"/>
-- 사용된 기술 : <img src="https://img.shields.io/badge/html5-E34F26?style=flat-square&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/Sass-CC6699.svg?style=flat-square&logo=Sass&logoColor=fff"/>
+- 사용된 기술 : <img src="https://img.shields.io/badge/html5-E34F26?style=flat-square&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/Scss-CC6699.svg?style=flat-square&logo=Sass&logoColor=fff"/>
 <img src="https://img.shields.io/badge/css3-1572B6?style=flat-square&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/jQuery-0769AD?style=flat-square&logo=jQuery&logoColor=white"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"> <img src="https://img.shields.io/badge/Swiper-6332F6?style=flat-square&logo=Swiper&logoColor=white">
 
 
