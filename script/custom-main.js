@@ -573,7 +573,7 @@ fetch(weatherUrl)
     document.getElementById('prec').innerHTML = `<h4>강수량</h4><h3>${precipitation}mm</h3>`;
     document.getElementById('wind').innerHTML = `<h4>풍속</h4><h3>${windSpeed}m/s</h3>`;
   
-    document.getElementById('weather-icon').src = `/images/subpage_02_serviceSuspension/${iconUrl}`;
+    document.getElementById('weather-icon').src = `/seoulchildrensgrandpark_Portfolio/images/subpage_02_serviceSuspension/${iconUrl}`;
 
   })
   .catch(error => {

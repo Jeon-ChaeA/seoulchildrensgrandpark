@@ -269,10 +269,10 @@ hamburgur.addEventListener('click', function () {
   
   // 햄버거 메뉴 열림/닫힘 상태 확인
   if (header_side_menu.classList.contains('active')) {
-    hamburgurImg.src = '/images/variables/close-icon-black.svg'; // 닫기 아이콘
+    hamburgurImg.src = '/seoulchildrensgrandpark_Portfolio/images/variables/close-icon-black.svg'; // 닫기 아이콘
     document.body.style.setProperty('overflow', 'hidden', 'important'); // 스크롤 방지
   } else {
-    hamburgurImg.src = '/images/header/header-hamburgur.png'; // 햄버거 아이콘
+    hamburgurImg.src = '/seoulchildrensgrandpark_Portfolio/images/header/header-hamburgur.png'; // 햄버거 아이콘
     document.body.style.overflow = 'auto'; // 스크롤 허용
   }
 });
@@ -363,10 +363,10 @@ function togglePassword() {
   // 비밀번호 아이콘 변경 (옵션)
   if (passwordField.type === 'password') {
     passwordField.type = 'text';  
-    passeye.src = '/images/variables/eye-open.svg';  
+    passeye.src = '/seoulchildrensgrandpark_Portfolio/images/variables/eye-open.svg';  
   } else {
     passwordField.type = 'password'; 
-    passeye.src = '/images/variables/eye-close.svg';  
+    passeye.src = '/seoulchildrensgrandpark_Portfolio/images/variables/eye-close.svg';  
   }
 }
 
