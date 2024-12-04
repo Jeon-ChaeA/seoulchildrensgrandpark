@@ -1,6 +1,6 @@
 # 🌳 서울어린이대공원
 
-## 🖥 작업자 : 전채아(Chae A JEON), 김해진(Haejin Kim), 허정(Jung Heo),
+## 🖥 작업자 : 전채아(Chae A JEON), 김해진(Haejin Kim), 허정(Jung Heo)
 
 ## 📅 제작 기간
 - 기획: 3일 (2024년 10월 29일 ~ 2024년 10월 31일)<br>
