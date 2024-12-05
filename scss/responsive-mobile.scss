@@ -848,6 +848,9 @@
   .directions{
     .directions-inner{
       .directions-top{
+        #map{
+          height: 320px;
+        }
         .text{
           display: flex;
           flex-direction: column;
