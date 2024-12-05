@@ -107,22 +107,22 @@ document.addEventListener("DOMContentLoaded", function () {
       let iconUrl;
       switch (weatherCondition) {
         case 'Clear':
-          iconUrl = '/seoulchildrensgrandpark_Portfolio/images/subpage_02_serviceSuspension/subpage_02_01.png'; // 맑음
+          iconUrl = '/images/subpage_02_serviceSuspension/subpage_02_01.png'; // 맑음
           break;
         case 'Clouds':
-          iconUrl = '/seoulchildrensgrandpark_Portfolio/images/subpage_02_serviceSuspension/subpage_02_02.png'; // 구름 조금
+          iconUrl = '/images/subpage_02_serviceSuspension/subpage_02_02.png'; // 구름 조금
           break;
         case 'Rain':
-          iconUrl = '/seoulchildrensgrandpark_Portfolio/images/subpage_02_serviceSuspension/subpage_02_05.png'; // 비
+          iconUrl = '/images/subpage_02_serviceSuspension/subpage_02_05.png'; // 비
           break;
         case 'Snow':
-          iconUrl = '/seoulchildrensgrandpark_Portfolio/images/subpage_02_serviceSuspension/subpage_02_06.png'; // 눈
+          iconUrl = '/images/subpage_02_serviceSuspension/subpage_02_06.png'; // 눈
           break;
         case 'Thunderstorm':
-          iconUrl = '/seoulchildrensgrandpark_Portfolio/images/subpage_02_serviceSuspension/subpage_02_04.png'; // 번개
+          iconUrl = '/images/subpage_02_serviceSuspension/subpage_02_04.png'; // 번개
           break;
         default:
-          iconUrl = '/seoulchildrensgrandpark_Portfolio/images/subpage_02_serviceSuspension/subpage_02_03.png'; // 구름 많음 (기본값)
+          iconUrl = '/images/subpage_02_serviceSuspension/subpage_02_03.png'; // 구름 많음 (기본값)
           break;
       }
 
@@ -143,7 +143,7 @@ document.addEventListener("DOMContentLoaded", function () {
         description: "오류날씨",
         windSpeed: 0.0,
         rainfall: 0.0,
-        iconUrl: "/seoulchildrensgrandpark_Portfolio/images/subpage_02_serviceSuspension/subpage_02_01.png", // 기본 아이콘
+        iconUrl: "/images/subpage_02_serviceSuspension/subpage_02_01.png", // 기본 아이콘
       });
     }
   }
@@ -213,22 +213,22 @@ document.addEventListener("DOMContentLoaded", function () {
           let customIconUrl;
           switch (weatherCondition) {
             case 'Clear':
-              customIconUrl = '/seoulchildrensgrandpark_Portfolio/images/subpage_02_serviceSuspension/subicon_02_01.svg'; // 맑음
+              customIconUrl = '/images/subpage_02_serviceSuspension/subicon_02_01.svg'; // 맑음
               break;
             case 'Clouds':
-              customIconUrl = '/seoulchildrensgrandpark_Portfolio/images/subpage_02_serviceSuspension/subicon_02_02.svg'; // 구름 조금
+              customIconUrl = '/images/subpage_02_serviceSuspension/subicon_02_02.svg'; // 구름 조금
               break;
             case 'Rain':
-              customIconUrl = '/seoulchildrensgrandpark_Portfolio/images/subpage_02_serviceSuspension/subicon_02_05.svg'; // 비
+              customIconUrl = '/images/subpage_02_serviceSuspension/subicon_02_05.svg'; // 비
               break;
             case 'Snow':
-              customIconUrl = '/seoulchildrensgrandpark_Portfolio/images/subpage_02_serviceSuspension/subicon_02_06.svg'; // 눈
+              customIconUrl = '/images/subpage_02_serviceSuspension/subicon_02_06.svg'; // 눈
               break;
             case 'Thunderstorm':
-              customIconUrl = '/seoulchildrensgrandpark_Portfolio/images/subpage_02_serviceSuspension/subicon_02_04.svg'; // 번개
+              customIconUrl = '/images/subpage_02_serviceSuspension/subicon_02_04.svg'; // 번개
               break;
             default:
-              customIconUrl = '/seoulchildrensgrandpark_Portfolio/images/subpage_02_serviceSuspension/subicon_02_03.svg'; // 기본값 (구름 많음)
+              customIconUrl = '/images/subpage_02_serviceSuspension/subicon_02_03.svg'; // 기본값 (구름 많음)
               break;
           }
           iconElement.src = customIconUrl;
@@ -331,7 +331,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const day = date.getDate().toString().padStart(2, '0');
         const weekday = weekDays[date.getDay()];
         const temp = forecast.avgTemp.toFixed(1);
-        const icon = `/seoulchildrensgrandpark_Portfolio/images/subpage_02_serviceSuspension/subicon_02_0${forecast.weatherCode}.svg`;
+        const icon = `/images/subpage_02_serviceSuspension/subicon_02_0${forecast.weatherCode}.svg`;
 
         // 각 요소 업데이트
         document.getElementById(`day-${index + 1}`).innerHTML = `<h5>${year}-${month}-${day} <br>${weekday}요일</h5>`;

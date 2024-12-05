@@ -1,4 +1,7 @@
-// directions.html 하단 //
+
+// directions.html 하단 (허정 작업) //
+
+
 let traffic_button = document.getElementById('traffic-button');
 let parking_button = document.getElementById('parking-button');
 
