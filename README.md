@@ -144,7 +144,7 @@
 
 | 서브03 : 찾아오시는길                                                                                                |
 | :---------------------------------------------------------------------------------------------------------------------- |
-| ![busanSub2]() |
+|![image](https://github.com/user-attachments/assets/256837c7-1098-4301-9d34-0343fc7b7fef) |
 
 | 이 페이지는 놀이동산으로 오시는 방법을 안내합니다.<br> 
 | 지도 API를 활용해 어린이대공원의 위치를 제공하며, 탭 메뉴를 통해 교통 안내와 주차 안내를 쉽게 확인할 수 있습니다.
@@ -191,7 +191,7 @@
 
 - [디자인](https://www.figma.com/design/G3W8cO6RJMAjprxWiUpE6K/%ED%8C%80%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8(%EC%84%9C%EC%9A%B8%EC%96%B4%EB%A6%B0%EC%9D%B4%EB%8C%80%EA%B3%B5%EC%9B%90)?node-id=16-2&t=eNmlJEUuJL8BHIst-1)
 
-- [DEMO](http://seoulgrandpak.dothome.co.kr/)
+- [DEMO](https://jeon-chaea.github.io/seoulchildrensgrandpark_Portfolio/index.html)
 
 
 # 📞 Contact
