@@ -196,7 +196,17 @@ let events = [
   { startDate: "2024-11-01", endDate: "2024-11-01", title: "2024년 제1회 광진 생활문화예술축제" },
   { startDate: "2024-11-02", endDate: "2024-11-02", title: "2024 광진가족 가을길 걷기 대회" },
   { startDate: "2024-11-05", endDate: "2024-11-08", title: "서울특별시 청년창업박람회" },
-  { startDate: "2024-11-06", endDate: "2024-11-24", title: "쿠바 그림 특별전" }
+  { startDate: "2024-11-06", endDate: "2024-11-24", title: "쿠바 그림 특별전" },
+  { startDate: "2024-12-10", endDate: "2024-12-31", title: "2024 서울어린이 대공원 겨울 빛 축제" },
+  { startDate: "2024-12-15", endDate: "2024-12-25", title: "크리스마스 가족 공연 '겨울 이야기'" },
+  { startDate: "2024-12-24", endDate: "2024-12-24", title: "산타와 함께하는 크리스마스 선물 나눔" },
+  { startDate: "2025-01-05", endDate: "2025-01-21", title: "2025 겨울 자연 학습 캠프" },
+  { startDate: "2025-01-10", endDate: "2025-01-10", title: "겨울새 관찰 투어" },
+  { startDate: "2025-01-15", endDate: "2025-01-20", title: "서울 어린이 미술 특별전: 겨울의 색" },
+  { startDate: "2025-02-03", endDate: "2025-02-14", title: "2025 설맞이 전통놀이 체험" },
+  { startDate: "2025-02-06", endDate: "2025-02-06", title: "2025 어린이 전통 윷놀이 대회" },
+  { startDate: "2025-02-10", endDate: "2025-02-29", title: "서울어린이대공원 봄 준비 사진전" },
+  { startDate: "2025-02-14", endDate: "2025-02-14", title: "발렌타인데이 가족 초콜릿 만들기" }
 ];
 
 // 달력 렌더링 함수
