@@ -719,7 +719,7 @@ header{
       align-items: center;
     }
     .footer-logo{
-      background-image: url(/images/variables/footer-logo.png);
+      background-image: url(/seoulchildrensgrandpark_Portfolio/images/variables/footer-logo.png);
       background-size: auto;
       width: 128px;
       height: 128px;
@@ -837,7 +837,7 @@ header{
       align-items: center;
     }
     .footer-logo{
-      background-image: url(/images/footer/서울어린이대공원Logo-03.png);
+      background-image: url(/seoulchildrensgrandpark_Portfolio/images/footer/서울어린이대공원Logo-03.png);
       background-size: cover;
       width: 128px;
       height: 128px;
@@ -959,7 +959,7 @@ header{
           width: 30px;
           height: 21px;
           position: absolute;
-          background: url(../images/subpage_04_ticket_info/triangle.svg) no-repeat;
+          background: url(/seoulchildrensgrandpark_Portfolio/images/subpage_04_ticket_info/triangle.svg) no-repeat;
           background-size: cover;
           top: 50%;
           right: 30px;
@@ -1457,7 +1457,7 @@ body{
   width: 100vw;
   overflow: hidden;
   height: auto;
-  background: url(/images/mainpage/main/mainVisual_bg.png) no-repeat;
+  background: url(/seoulchildrensgrandpark_Portfolio/images/mainpage/main/mainVisual_bg.png) no-repeat;
   background-size: cover;
   .gyro-drop{
     .gyro-drop-chair{
@@ -2151,14 +2151,14 @@ height: 100vh;
                 background-color: #96D7FF;
               }
               .bg{
-                background-image: url('/images/mainpage/section_02/section_02-01(hover).jpg');
+                background-image: url('/seoulchildrensgrandpark_Portfolio/images/mainpage/section_02/section_02-01(hover).jpg');
               }
             }
           }
           .wrap{
             .animal-box{background-color: #CCCCCC;}
             .animal-bg{
-              background-image: url(/images/mainpage/section_02/section_02-01.jpg); 
+              background-image: url(/seoulchildrensgrandpark_Portfolio/images/mainpage/section_02/section_02-01.jpg); 
             }
             .animal-icon{
               position: absolute;
@@ -2185,14 +2185,14 @@ height: 100vh;
                 background-color: #C5E6ff;
               }
               .bg{
-                background-image: url('/images/mainpage/section_02/section_02-02(hover).jpg');
+                background-image: url('/seoulchildrensgrandpark_Portfolio/images/mainpage/section_02/section_02-02(hover).jpg');
               }
             }
           }
           .wrap{
             .nature-box{background-color: #E0E0E0;}
             .nature-bg{
-              background-image: url('/images/mainpage/section_02/section_02-02.jpg');
+              background-image: url('/seoulchildrensgrandpark_Portfolio/images/mainpage/section_02/section_02-02.jpg');
             }
             .nature-icon{
               position: absolute;
@@ -2218,13 +2218,13 @@ height: 100vh;
                 background-color: #63A6EA;
               }
               .bg{
-                background-image: url('/images/mainpage/section_02/section_02-03(hover).jpg');
+                background-image: url('/seoulchildrensgrandpark_Portfolio/images/mainpage/section_02/section_02-03(hover).jpg');
               }
             }
           }
           .wrap{
             .fun-box{background-color: #A3A3A3;}
-            .bg{background-image: url('/images/mainpage/section_02/section_02-03.jpg');}
+            .bg{background-image: url('/seoulchildrensgrandpark_Portfolio/images/mainpage/section_02/section_02-03.jpg');}
             .fun-icon{
               position: absolute;
               width: 283px; 
@@ -3252,23 +3252,20 @@ height: 100vh;
     height: max-content;
     margin-bottom: 120px;
     .directions-top{
+      #map{
+        width: 100%;
+        height: 620px;
+      }
       h1{
         font-size: 48px;
         font-weight: bold;
         color: $deep-green;
         margin-top: 100px;
       }
-      .map-container{
+      #map{
         margin-top: 30px;
-        border-radius: 30px 30px 0 0;
         border: 1px solid #000;
-        width: 66.6vw;
-        height: 60vh;
-        overflow: hidden;
-        #map{
-          width: inherit;
-          height: inherit;
-        }
+        border-radius: 30px 30px 0 0;
       }
       .text{
         width: 100%;
@@ -3803,7 +3800,7 @@ height: 100vh;
           height: 20px;
           position: absolute;
           transform: translateY(-50%);
-          background: url('../images/subpage_04_ticket_info/arrow-right.svg') no-repeat;
+          background: url('/seoulchildrensgrandpark_Portfolio/images/subpage_04_ticket_info/arrow-right.svg') no-repeat;
           background-size: cover;
         }
         &:last-child::after{
@@ -3966,7 +3963,7 @@ height: 100vh;
         .info-header{
           width: 100%;
           height: 70px;
-          background: url(/images/subpage_05_ticket_rev/info-header.png) no-repeat;
+          background: url(/seoulchildrensgrandpark_Portfolio/images/subpage_05_ticket_rev/info-header.png) no-repeat;
           background-size: cover;
           border-radius: 20px;
           h3{
@@ -4037,7 +4034,7 @@ height: 100vh;
               content: '';
               width: 17px;
               height: 12px;
-              background: url(../images/subpage_05_ticket_rev/path.svg) no-repeat;
+              background: url(/seoulchildrensgrandpark_Portfolio/images/subpage_05_ticket_rev/path.svg) no-repeat;
               background-size: cover;
               position: absolute;
               top: 50%;
@@ -4245,7 +4242,7 @@ height: 100vh;
               }
               .btn-clear{
                 border: none;
-                background:url(../images/subpage_06_ticket_cart/x.svg) no-repeat;
+                background:url(/seoulchildrensgrandpark_Portfolio/images/subpage_06_ticket_cart/x.svg) no-repeat;
                 width: 16px;
                 height: 16px;
                 background-size: cover;
@@ -4359,13 +4356,13 @@ height: 100vh;
                 width: 20px;
                 height: 20px;
                 margin-right: 3px;
-                background: url('/images/subpage_06_ticket_cart/check-circle.svg') no-repeat;
+                background: url('/seoulchildrensgrandpark_Portfolio/images/subpage_06_ticket_cart/check-circle.svg') no-repeat;
                 background-position: left;
                 transform: translateY(3px);
                 transition: background .15s;
               }
               &:checked +em{
-                background-image: url('../images/subpage_06_ticket_cart/check-circle-on.svg');
+                background-image: url('/seoulchildrensgrandpark_Portfolio/images/subpage_06_ticket_cart/check-circle-on.svg');
               }
             }
             img{

@@ -42,14 +42,14 @@ li {
 /* 카카오 폰트 primary-kr  */
 @font-face {
   font-family: "Kakao-Regular";
-  src: url("/fonts/KakaoRegular.woff") format("woff2");
+  src: url("/seoulchildrensgrandpark_Portfolio/fonts/KakaoRegular.woff") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 /* 카카오 폰트 Secondary-kr */
 @font-face {
   font-family: "Kakao-Bold";
-  src: url("/fonts/KakaoBold.woff") format("woff2");
+  src: url("/seoulchildrensgrandpark_Portfolio/fonts/KakaoBold.woff") format("woff2");
   font-weight: 700; /*Bold*/
   font-style: normal;
 }
@@ -589,13 +589,13 @@ li {
     height: 640px;
   }
   .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .animal .wrap .animal-bg, .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .nature .wrap .animal-bg, .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .fun .wrap .animal-bg {
-    background-image: url(/images/mainpage/section_02/section_02-01\(hover\).jpg);
+    background-image: url(/seoulchildrensgrandpark_Portfolio/images/mainpage/section_02/section_02-01\(hover\).jpg);
   }
   .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .animal .wrap .nature-bg, .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .nature .wrap .nature-bg, .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .fun .wrap .nature-bg {
-    background-image: url(/images/mainpage/section_02/section_02-02\(hover\).jpg);
+    background-image: url(/seoulchildrensgrandpark_Portfolio/images/mainpage/section_02/section_02-02\(hover\).jpg);
   }
   .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .animal .wrap .fun-bg, .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .nature .wrap .fun-bg, .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .fun .wrap .fun-bg {
-    background-image: url(/images/mainpage/section_02/section_02-03\(hover\).jpg);
+    background-image: url(/seoulchildrensgrandpark_Portfolio/images/mainpage/section_02/section_02-03\(hover\).jpg);
   }
   .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .animal .wrap .text, .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .nature .wrap .text, .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .fun .wrap .text {
     margin-left: 0;

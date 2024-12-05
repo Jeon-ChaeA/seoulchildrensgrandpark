@@ -42,14 +42,14 @@ li {
 /* 카카오 폰트 primary-kr  */
 @font-face {
   font-family: "Kakao-Regular";
-  src: url("/fonts/KakaoRegular.woff") format("woff2");
+  src: url("/seoulchildrensgrandpark_Portfolio/fonts/KakaoRegular.woff") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 /* 카카오 폰트 Secondary-kr */
 @font-face {
   font-family: "Kakao-Bold";
-  src: url("/fonts/KakaoBold.woff") format("woff2");
+  src: url("/seoulchildrensgrandpark_Portfolio/fonts/KakaoBold.woff") format("woff2");
   font-weight: 700; /*Bold*/
   font-style: normal;
 }
@@ -351,7 +351,7 @@ li {
     margin-right: 20px;
   }
   .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .animal .wrap .animal-bg {
-    background-image: url(/images/mainpage/section_02/section_02-01\(hover\).jpg);
+    background-image: url(/seoulchildrensgrandpark_Portfolio/images/mainpage/section_02/section_02-01\(hover\).jpg);
   }
   .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .animal .wrap .animal-icon {
     width: 362px;
@@ -359,7 +359,7 @@ li {
     bottom: 10%;
   }
   .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .nature .wrap .nature-bg {
-    background-image: url(/images/mainpage/section_02/section_02-02\(hover\).jpg);
+    background-image: url(/seoulchildrensgrandpark_Portfolio/images/mainpage/section_02/section_02-02\(hover\).jpg);
   }
   .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .nature .wrap .nature-icon {
     width: 263px;
@@ -367,7 +367,7 @@ li {
     bottom: 10%;
   }
   .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .fun .wrap .fun-bg {
-    background-image: url(/images/mainpage/section_02/section_02-03\(hover\).jpg);
+    background-image: url(/seoulchildrensgrandpark_Portfolio/images/mainpage/section_02/section_02-03\(hover\).jpg);
   }
   .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .fun .wrap .fun-icon {
     width: 302px;
@@ -1331,7 +1331,7 @@ li {
     right: -200px;
   }
   .main-section .main-image {
-    background-image: url(/images/mainpage/main/mainVisual_main_responsive.png);
+    background-image: url(/seoulchildrensgrandpark_Portfolio/images/mainpage/main/mainVisual_main_responsive.png);
     background-size: 100vw;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -1593,7 +1593,7 @@ li {
     margin-right: 20px;
   }
   .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .animal .wrap .animal-bg {
-    background-image: url(/images/mainpage/section_02/section_02-01\(hover\).jpg);
+    background-image: url(/seoulchildrensgrandpark_Portfolio/images/mainpage/section_02/section_02-01\(hover\).jpg);
   }
   .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .animal .wrap .animal-icon {
     width: 362px;
@@ -1601,14 +1601,14 @@ li {
     bottom: 10%;
   }
   .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .nature .wrap .nature-bg {
-    background-image: url(/images/mainpage/section_02/section_02-02\(hover\).jpg);
+    background-image: url(/seoulchildrensgrandpark_Portfolio/images/mainpage/section_02/section_02-02\(hover\).jpg);
   }
   .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .nature .wrap .nature-icon {
     width: 263px;
     height: 287px;
   }
   .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .fun .wrap .fun-bg {
-    background-image: url(/images/mainpage/section_02/section_02-03\(hover\).jpg);
+    background-image: url(/seoulchildrensgrandpark_Portfolio/images/mainpage/section_02/section_02-03\(hover\).jpg);
   }
   .sub-section-02 .sub-section-02-inner .main-contents .tab-contents .fun .wrap .fun-icon {
     width: 302px;
