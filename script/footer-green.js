@@ -1,5 +1,5 @@
 /* Include Footer */
-fetch("/include/footer-green.html")
+fetch("/seoulchildrensgrandpark_Portfolio/include/footer-green.html")
   .then(response => {
     if (!response.ok) {
       throw new Error('Network response was not ok ' + response.statusText);

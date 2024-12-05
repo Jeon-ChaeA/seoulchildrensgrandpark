@@ -219,7 +219,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <input class="cart-chk" type="checkbox" checked>
               </div>
               <div class="thum">
-                <img src="/images/subpage_06_ticket_cart/thum-${ticketType}.jpg" alt="${ticketType} 썸네일">
+                <img src="/seoulchildrensgrandpark_Portfolio/images/subpage_06_ticket_cart/thum-${ticketType}.jpg" alt="${ticketType} 썸네일">
               </div>
               <div class="cart-overview">
                 <div class="cart-overview-header">

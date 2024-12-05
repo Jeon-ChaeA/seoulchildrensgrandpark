@@ -1,5 +1,5 @@
 //follow cursor
-fetch("../include/follow-cursor.html")
+fetch("/seoulchildrensgrandpark_Portfolio/include/follow-cursor.html")
   .then(response=>response.text())
   .then(html=>{
     document.querySelector('.follow-cursor-include').innerHTML = html;
@@ -34,7 +34,7 @@ fetch("../include/follow-cursor.html")
   });
 
 // 헤더
-fetch("../include/header.html")
+fetch("/seoulchildrensgrandpark_Portfolio/include/header.html")
   .then(response => response.text())
   .then(html => {
     document.querySelector('.header-include').innerHTML = html;
@@ -269,10 +269,10 @@ hamburgur.addEventListener('click', function () {
   
   // 햄버거 메뉴 열림/닫힘 상태 확인
   if (header_side_menu.classList.contains('active')) {
-    hamburgurImg.src = '/images/variables/close-icon-black.svg'; // 닫기 아이콘
+    hamburgurImg.src = '/seoulchildrensgrandpark_Portfolio/images/variables/close-icon-black.svg'; // 닫기 아이콘
     document.body.style.setProperty('overflow', 'hidden', 'important'); // 스크롤 방지
   } else {
-    hamburgurImg.src = '/images/header/header-hamburgur.png'; // 햄버거 아이콘
+    hamburgurImg.src = '/seoulchildrensgrandpark_Portfolio/images/header/header-hamburgur.png'; // 햄버거 아이콘
     document.body.style.overflow = 'auto'; // 스크롤 허용
   }
 });
@@ -325,7 +325,7 @@ side_search_btn.addEventListener('click',function(){
 })})
 
 //퀵메뉴
-fetch("../include/quick-menu.html")
+fetch("/seoulchildrensgrandpark_Portfolio/include/quick-menu.html")
 .then(response => {
   if (!response.ok) {
     throw new Error('Network response was not ok ' + response.statusText);
@@ -363,10 +363,10 @@ function togglePassword() {
   // 비밀번호 아이콘 변경 (옵션)
   if (passwordField.type === 'password') {
     passwordField.type = 'text';  
-    passeye.src = '/images/variables/eye-open.svg';  
+    passeye.src = '/seoulchildrensgrandpark_Portfolio/images/variables/eye-open.svg';  
   } else {
     passwordField.type = 'password'; 
-    passeye.src = '/images/variables/eye-close.svg';  
+    passeye.src = '/seoulchildrensgrandpark_Portfolio/images/variables/eye-close.svg';  
   }
 }
 
@@ -412,7 +412,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 //go-to-top
-fetch("../include/go-to-top.html")
+fetch("/seoulchildrensgrandpark_Portfolio/include/go-to-top.html")
 .then(response => response.text())
 .then(html =>{
   document.querySelector('.go-to-top-include').innerHTML = html;

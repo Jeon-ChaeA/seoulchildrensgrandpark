@@ -115,3 +115,29 @@ function scrollToSection(index) {
     currentSection = index;
   }, 800);
 }
+
+// /* #### directions.html #### */
+// //지도 구현
+document.addEventListener('DOMContentLoaded', function() {
+  /* #### directions.html #### */
+  //지도 구현
+  
+
+  //탭기능 구현
+  const tabs = document.querySelectorAll('.tab-button');
+  const tabContents = document.querySelectorAll('.tab-pane');
+
+  tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+          const tabId = tab.getAttribute('data-tab');
+
+          // 모든 탭과 탭 내용에서 active 클래스 제거
+          tabs.forEach(t => t.classList.remove('active'));
+          tabContents.forEach(content => content.classList.remove('active'));
+
+          // 클릭된 탭과 해당 내용에 active 클래스 추가
+          tab.classList.add('active');
+          document.getElementById(tabId).classList.add('active');
+      });
+  });
+});
