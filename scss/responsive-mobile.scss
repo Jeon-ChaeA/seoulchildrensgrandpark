@@ -93,6 +93,9 @@
     .main-visual-inner{
       .main-popup{
         display: none;
+        top: 25%;
+        z-index: 99;
+        right: 3%;
       }
     }
   }
@@ -104,7 +107,7 @@
     height: auto;
   }
   /* header */
-  header{
+   header{
     .header-wrap{
       height: 130px;
       .header-top{
@@ -153,10 +156,30 @@
         top: 130px;
         width: 100vw;
         border-radius: 0;
-        .nav-items{
-          .nav-item{
-            margin-left: 0;
+        .top-icons{
+          display: flex;
+          justify-content: center;
+          gap: 0px;
+          .top-icon{
+            h5{
+              width: 90px;
+            }
           }
+        }
+        .nav-items{
+            .nav-item{
+                margin-left: 0;
+                .nav-item-title{
+                  display: flex;
+                  align-items: center;
+                  height: 70px;
+                  width: 100vw;
+                  img{
+                    margin-right: 5vw;
+                }
+            }
+          }
+         
         }
       }
 
@@ -434,7 +457,7 @@
           font-weight: bold;
         }
         h2{
-          font-size: 20px;
+          font-size: 17px;
           font-weight: bold;
           word-break: keep-all;
         }
@@ -449,7 +472,6 @@
           .tab-buttons{
             display: flex;
             justify-content: space-between;
-            margin-top: -10px;
           }
           .tab-button{
             position: relative;
@@ -476,29 +498,26 @@
           }
         }
         .tab-contents{
-          margin-top: -20px;
           .animal, .nature, .fun{
-            margin-top: -19px;
             .title{
               display: none;
             }
             .wrap{
-              margin-top: 23px;
               .animal-icon{
                 width: 360px; 
                 height: 241px;
-                bottom: -34%;
+                bottom: 5%;
                 right: -3%;
               }
               .nature-icon{
                 width: 263px; 
                 height: 287px;
-                bottom: -34%;
+                bottom: 5%;
               }
               .fun-icon{
                 width: 302px; 
                 height: 161px;
-                bottom: -34%;
+                bottom: 5%;
               }
               .box{
                 display: none;
@@ -509,17 +528,17 @@
                 height: 640px;
               }
               .animal-bg{
-                background-image: url(/seoulchildrensgrandpark_Portfolio/images/mainpage/section_02/section_02-01\(hover\).jpg);
+                background-image: url(/images/mainpage/section_02/section_02-01\(hover\).jpg);
               }
               .nature-bg{
-                background-image: url(/seoulchildrensgrandpark_Portfolio/images/mainpage/section_02/section_02-02\(hover\).jpg);
+                background-image: url(/images/mainpage/section_02/section_02-02\(hover\).jpg);
               }
               .fun-bg{
-                background-image: url(/seoulchildrensgrandpark_Portfolio/images/mainpage/section_02/section_02-03\(hover\).jpg);
+                background-image: url(/images/mainpage/section_02/section_02-03\(hover\).jpg);
               }
               .text{
                 margin-left: 0;
-                padding-left: 45px;
+                padding-left: 8px;
                 .slogan{
                   padding-top: 82px;
                   font-size: 1.75em;
@@ -543,19 +562,19 @@
             }
           }
         }
-        
     }
   }
   /* #### Section : Sub3 #### */
   .sub-section-03{
     width: 100vw;
-    height: 840px;
+    height: auto;
     background: linear-gradient($white 5%, #C0EFF9);
     .sub-section-03-inner{
       width: 80vw;
       margin: auto;
       }
     .review-main-text{
+      padding-top: 50px;
       width: 100vw;
       display: flex;
       flex-direction: column;
@@ -709,6 +728,9 @@
               width: 50%;
               height: 40px;
               line-height: 40px;
+              .suv{
+                display: none;
+              }
             }
           }
           .options-num{
@@ -848,9 +870,6 @@
   .directions{
     .directions-inner{
       .directions-top{
-        #map{
-          height: 320px;
-        }
         .text{
           display: flex;
           flex-direction: column;
@@ -1162,11 +1181,13 @@
                   height: 80px;
                 }
                 span{
+                  align-self: center;
                   padding: 10px;
                   font-size: 22px;
                   em{
+                    margin-top: 6px;
                     font-size: 14px;
-                    white-space: nowrap;
+                    white-space: wrap;
                   }
                 }
               }
@@ -1194,6 +1215,7 @@
                   }
                 }
                 .option-total{
+                  flex-wrap: wrap;
                   height: 30px;
                 }
               }
