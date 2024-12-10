@@ -185,6 +185,7 @@ li {
     margin-top: 0;
   }
   header .header-side-menu .side-menu-wrap {
+    display: block;
     top: 130px;
     width: 100vw;
     border-radius: 0;
@@ -825,6 +826,7 @@ li {
     display: block;
   }
   .attraction-inner .attraction-options .options-container #attraction-form .top-options-wrap .options-num, .attraction-inner .attraction-options .options-container #attraction-form .top-options-wrap .options-chk {
+    gap: 20px;
     margin-top: 0px;
     padding: 0 20px;
   }

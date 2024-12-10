@@ -153,6 +153,7 @@
     }
     .header-side-menu{
       .side-menu-wrap{
+        display: block;
         top: 130px;
         width: 100vw;
         border-radius: 0;
@@ -722,6 +723,7 @@
           .top-options-wrap{
             display: block;
             .options-num, .options-chk{
+              gap: 20px;
               margin-top: 0px;
               padding: 0 20px;
             .option{ 
