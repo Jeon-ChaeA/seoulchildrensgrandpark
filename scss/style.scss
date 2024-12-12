@@ -565,14 +565,19 @@ header{
               display: flex;
               align-items: center;
               height: 70px;
-              width: 93%;
+              width: 80%;
               font-size: 24px;
               font-weight: bold;
               cursor: pointer;
               color: $deep-green;
-              justify-content: space-between;
+              justify-content: flex-start;
               border-bottom: 1px solid $dark-gray;
               padding-left: 25px;
+              span{
+                color: $forest-green;
+                position: absolute;
+                left: 30px;
+              }              
               &:hover,&:focus{
                 color: $forest-green;
                 background-color: $silver-gray;
@@ -581,6 +586,7 @@ header{
                 border-bottom: none;
               }
               img{
+                margin-left: auto;
                 margin-right: 50px;
               }
               &.active{
@@ -610,6 +616,7 @@ header{
                 border-bottom: none;
               }
               .nav-item-in-title{
+                position: relative;
                 height: 70px;
                 width: 525px;
                 display: flex;
@@ -618,6 +625,11 @@ header{
                 border-bottom: 1px solid $dark-gray;
                 padding-left: 40px;
                 gap: 225px;
+                span{
+                  color: $forest-green;
+                  position: absolute;
+                  left: 10px;
+                }
                 a{
                   font-weight: bold;
                 }
@@ -634,6 +646,7 @@ header{
                 }
               }
               .nav-item-in-in{
+                position: relative;
                 display: none;
                 width: 525px;
                 flex-direction: column;
@@ -646,6 +659,11 @@ header{
                 padding-left: 40px;
                 a{
                   font-weight: bold;
+                  span{
+                    color: $forest-green;
+                    position: absolute;
+                    left: 50px;
+                  }
                 }
                 &.active{
                   display: flex;
@@ -998,7 +1016,7 @@ header{
           line-height: 54px;
           border-bottom: 1px solid $olive-green;
           a{
-            font-size: 20px;
+            font-size: 18px;
           }
           &:last-child{
             border-radius: 0 0 20px 20px;
@@ -2857,9 +2875,9 @@ height: 100vh;
           display: block;
           transition: transform 0.3s ease;
           object-position: center;
-        }
-        &:hover{
-          transform: scale(1.1);
+          &:hover{
+            transform: scale(1.1);
+          }
         }
       }
     }

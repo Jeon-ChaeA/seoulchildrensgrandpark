@@ -843,6 +843,11 @@
         }
       }
     }
+    .header-side-menu{
+      .side-menu-wrap{
+        display: block;
+      }
+    }
   }
   /* footer */
   .footer-green-include{
@@ -1413,6 +1418,9 @@
           li{
             height: 40px;
             line-height: 40px;
+            a{
+              font-size: 14px;
+            }
           }
         }
       }

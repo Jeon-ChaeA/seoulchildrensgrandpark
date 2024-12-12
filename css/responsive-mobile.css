@@ -1,6 +1,5 @@
 @charset "UTF-8";
-/* Import Local Scss Files */
-/* Font Family */
+/* Import Local Scss Files */ /* Font Family */
 /* Setting Variables : Text Color */
 /* Setting Variables : Object Color */
 /* box-shadow */
@@ -214,6 +213,9 @@ li {
             align-items: center;
     height: 70px;
     width: 100vw;
+  }
+  header .header-side-menu .side-menu-wrap .nav-items .nav-item .nav-item-title span {
+    left: 0;
   }
   header .header-side-menu .side-menu-wrap .nav-items .nav-item .nav-item-title img {
     margin-right: 5vw;
